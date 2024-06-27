@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Danfo&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: poetsenone;
+    src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+    font-family: Foldit;
+    src: url(../fonts/Foldit-VariableFont_wght.ttf);
+}
+
+@font-face { 
+    font-family: Saira-light;
+    src: url(../fonts/SairaCondensed-Light.ttf);
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+
+}
+
+.tigre {
+    width: 5rem;
+}
+
+.nav{
+    background-color: rgb(47, 255, 78);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-star;
+    flex-wrap: nowrap;
+    gap: 10rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row ;
+    gap: 5rem;
+       
+}
+
+
+.menu-item {
+    border: 5px solid white;
+    font-size: 2rem;
+}
+.inicio {
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 40;
+    font-style: italic;
+    border: 4px solid green;
+    border-radius: 2px;
+    background-color: yellow;
+       
+}
+
+.texto-rojo {
+    color: red;
+}
+
+h2 {
+    color: yellow;
+    background-color: green;
+    font-family: poetsenone;
+    border: 2px;
+    align-items:center;
+    justify-items: center;
+    font-size: 4rem;
+    align-items:center;
+}
+
+h3 {
+    color: green;
+    font-family: sans-serif;
+    font-size: 5rem;
+   
+}
+ 
+p  {
+    font-family: Saira-light;
+    
+}
+.foto {
+    background-image: url(../img/tigre\ solo\ png.png);
+    width: 100%;
+    height: 100%;
+}
+
+.borde-uno {
+    text-align: justify;
+    font-size: 30px;
+    padding: 1rem;
+    border-radius: 50px;
+    
+
+}
+.borde-dos {
+    background-color: yellow;
+    border: 4px solid green;
+    border-style: dotted;
+    border-radius: 2px;
+    padding: 1rem;
+    margin: 50px;
+    font-size: 25px;
+}
+    
+.borde3{
+    margin-left: 30%;
+    background-color: green;
+    color:white;
+    width: 500px;
+    height: 400px;
+    border: 10px solid yellow;
+    border-radius: 10px;
+    overflow: scroll;
+    padding: 20px;
+    text-align: justify;
+}
+
+.tienda {
+    margin-left: 30rem;
+    font-size: 30px;
+    
+}
+.licra {
+    margin-top: 50px;
+    margin-left: 1px;
+    width: 400px;
+    inset-block: 100px;
+}
+
+.sinfondo {
+    background-color: white;
+    padding: 1rem;
+}
+
+.texto-verde {
+    color: green;
+   background-color: yellow;
+}
+
+section{
+    margin-top: 4rem;
+    display: flex;
+}
+
+.ropa {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    width: 100%;
+    flex-basis: 100%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.equipo {
+    border: 10px solid greenyellow;
+    margin-left: 5px; margin-right: ;
+}
+.grande {
+    font-size: 2rem;
+    text-align: center;
+    padding: 50px;
+}
+.img {
+    margin-left: 70px;
+    width: 500px;
+    inset-block: 20px;
+    
+    
+}
+
+.parrafo1 {
+    color: green;
+    background-color: yellow;
+
+}
+
+.fondo-dif {
+    color: green;
+    background-color: white;
+    margin-left: 10rem;
+    
+}
+
+.contenedoruno {
+    
+    padding: 2rem;
+    margin-top: 1px;
+    font-size: 3rem;
+        
+}
+
+.blanca {
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.amarilla {
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.naranja {
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid orangered;
+    background-color: orange;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.azul {
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.morada {
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid purple;
+    background-color: purple;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.cafe {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: 1px solid brown;
+    background-color: brown;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.negro {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+
+.mestre {
+    list-style-type: none;
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid red;
+    background-color: red;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "logo cintas           cintasprincipiantes"
+        "logo cintasintermedio cintasavanzadas";
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+   
+}
+.hijo {
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+.logo {
+    
+    grid-area:logo;
+    background-color: red;
+
+}
+    
+.joao {
+    height: 45%;
+}
+.cintas {
+    grid-area: cintas;
+    background-color: greenyellow;
+           
+}
+.cintasprincipiantes {
+    grid-area: cintasprincipiantes;
+    background-color: green;
+}
+.cintasintermedio {
+    grid-area: cintasintermedio;
+    background-color: green;
+}
+.cintasavanzadas {
+    grid-area: cintasavanzadas;
+background-color: greenyellow;
+}
+
+body {
+    background-color: white;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.maps {
+    border: 10px solid yellow;
+    border-radius: 20px;
+    background-color: green;
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    }
+.footer {
+    font-size: 2rem;
+}
+@media (width < 2500px) {
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "logo logo"
+        "cintas cintasprincipiantes"
+        "cintasintermedio cintasavanzadas";
+    }
+}
+
+@media (width < 2000px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1rf);
+        grid-template-areas: 
+        "logo"
+        "cintas"
+        "cintasprincipiantes"
+        "cintasintermedio" 
+        "cintasavanzadas";
+        
+    }
+}
