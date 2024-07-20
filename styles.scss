@@ -16,6 +16,30 @@
     src: url(../fonts/SairaCondensed-Light.ttf);
 }
 
+.card-img-top {
+    width: 100%;
+    height: 200px; /* es para ajustar altura en la imagenen en la pagina productos */
+    object-fit: cover; /* Me sirve para mantener la proporción de la imagen en la pagina producto*/
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+    object-fit: contain;
+}
+.separacion {
+    margin-top: 100px;
+}
+.borde3 {
+    border: 3px solid #ddd; 
+    padding: 20px;
+    border-radius: 10px;
+}
+.tienda {
+    background-color: #f9f9f9; 
+}
+
+
 .tigre {
     width: 5rem;
 }
@@ -267,7 +291,7 @@ p  {
 }
 
 .ropa {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: 10rem;
     margin-right: 10rem;
     display: flex;
