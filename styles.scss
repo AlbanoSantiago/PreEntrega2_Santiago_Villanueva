@@ -55,7 +55,7 @@ $footer-font-size: 20px;
 
 
 .tigre {
-    width: 5rem;
+    width: 100px;
 }
 
 $familia-titulo: sans-serif;
@@ -76,10 +76,10 @@ $familia-titulo: sans-serif;
 
 h1 {
     font-family: "Anton", sans-serif;
-    font-weight: 40;
+    font-weight: 50px;
     font-style: italic;
     border: 4px $color-principal;
-    border-radius: 2px;
+    border-radius: 10px;
     background-color: $color-secundario;
        
 }
@@ -147,10 +147,6 @@ a:hover {
     color: $color-cuaternario;
 }
 
-.tigre {
-    width: 2rem;
-}
-
 .foto {
     background-image: url(../img/tigre\ solo\ png.png);
     width: 100%;
@@ -170,7 +166,6 @@ a:hover {
 
 .texto-verde {
     color: $color-principal;
-   background-color: $color-secundario;
 }
 
 .borde-uno {
